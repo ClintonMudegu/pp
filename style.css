@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%; 
+    background-color: black;      
+}
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+span{
+    color: red;
+}
+li{
+    list-style-type: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+li a:hover{
+    color: red;
+    transition: .4s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%);
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.email form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.email form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.email form input:last-child{
+    position: absolute; 
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px;
+    top: 5px;
+    right: 6px;
+
+
+}
+.email form input:last-child:hover{
+    cursor: pointer;
+}
+.main2{
+
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right,black ,grey,white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sect1{
+    color:white;
+    padding: 10%;
+    right: 30%;
+    width: 50%;
+    height: auto;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+}
+.main2 .sect1 h2{
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.share{
+    position: absolute;
+    top: 45%;
+    color: white;
+    left: 50%;
+    display: flex;
+    align-items: center ;
+}
+.share h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+}
+.share .media a{
+    display: inline-block;
+    color: white;
+    transition: transform .3s;
+    text-decoration: none;
+}
+.share .media a:hover{
+    transform: scale(1.6);
+}
